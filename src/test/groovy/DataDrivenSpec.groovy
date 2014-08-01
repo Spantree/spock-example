@@ -23,7 +23,7 @@ class DataDrivenSpec extends Specification {
     Math.max(a, b) == c
 
     where:
-    a << [3, 5, 9]
+    a << [3, 5, 10]
     b << [7, 4, 9]
     c << [7, 5, 9]
   }
